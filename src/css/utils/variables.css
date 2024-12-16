@@ -1,0 +1,20 @@
+:root {
+    /* Colors */
+    --blue: #0016d5;
+    --light-blue: #07bcfd;
+    --gray: #363636;
+    --dark-gray: #1d1d1b;
+    --black: #0f0f0f;
+
+    /* Text-size styles */
+    /* base size: body-3 (13px) */
+    --heading-1: 3.69rem;
+    --heading-2: 1.85rem;
+    --heading-3: 1.69rem;
+    --body-1: 1.31rem;
+    --body-2: 1.15rem;
+    --body-3: 1rem;
+    --small-text: 0.85rem;
+    --button: 1rem;
+    --small-text--uppercase: 1rem;
+}
