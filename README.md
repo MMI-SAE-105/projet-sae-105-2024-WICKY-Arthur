@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : WICKY
+- PRÉNOM : Arthur 
+- GROUPE : C2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/jhekNHGUJnf2xonxd3M8ne/Projet-individuel?node-id=1-2&t=aDqZdXuUiwRsrdYc-1
