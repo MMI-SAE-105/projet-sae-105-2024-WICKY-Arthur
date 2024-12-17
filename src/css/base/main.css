@@ -1,22 +1,52 @@
-body{
+body {
     color: #FFFFFF;
-    font-family: var(--font-sans);
+    font-family: var(--font-mono);
     font-weight: 400;
     background-color: var(--dark-gray);
 }
 
-h1,h2,h3{
-    font-family:var(--font-heading);
-    font-weight:700; 
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+    font-weight: 700;
     line-height: var(--height-h1);
 }
-h1{
+
+h1 {
     font-size: var(--heading-1);
 }
-h2{
+
+h2 {
     font-size: var(--heading-2);
 }
-h3{
+
+h3 {
     font-size: var(--heading-3);
     line-height: var(--height-h3);
+}
+
+button,
+input,
+select,
+textarea {
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.noscroll {
+    overflow: hidden;
 }

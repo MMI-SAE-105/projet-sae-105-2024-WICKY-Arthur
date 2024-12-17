@@ -8,15 +8,15 @@
 
     /* Text-size styles */
     /* base size: body-3 (13px) */
-    --heading-1: 3rem;
-    --heading-2: 1.5rem;
-    --heading-3: 1.375rem;
-    --body-1: 1.063rem;
-    --body-2: 0.938rem;
-    --body-3: 0.813rem;
-    --small-text: 0.688rem;
-    --button: 0.813rem;
-    --small-text--uppercase: 0.813rem;
+    --heading-1: 3rem; /* 48px*/
+    --heading-2: 1.5rem; /* 24px */
+    --heading-3: 1.375rem; /* 22px */
+    --body-1: 1.063rem; /* 17px */
+    --body-2: 0.938rem; /* 15px */
+    --body-3: 0.813rem; /* 13px */
+    --small-text: 0.688rem; /* 11px */
+    --button: 0.813rem; /* 13px */
+    --small-text--uppercase: 0.813rem; /* 13px */
 
     /* Height */
     --height-h1: 110%;
@@ -30,5 +30,6 @@
     --font-heading: "Jura", sans-serif;
     --font-sans: "Josefin Sans", sans-serif;
     --font-mono: "JetBrains Mono", monospace;
+    --font-menu: "Mulish", sans-serif;
 }
 
