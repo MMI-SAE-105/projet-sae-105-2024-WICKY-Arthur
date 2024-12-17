@@ -25,5 +25,10 @@
     --height-b2: 140%;
     --height-b3: 160%;
     --height-st: 160%;
+
+    /* Font-family */
+    --font-heading: "Jura", sans-serif;
+    --font-sans: "Josefin Sans", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
 }
 
