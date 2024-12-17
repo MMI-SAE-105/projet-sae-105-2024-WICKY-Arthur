@@ -9,6 +9,7 @@
 @import "base/main.css";
 /*Layouts*/
 @import "layouts/header.css";
+@import "layouts/footer.css";
 /*Components*/
 @import "components/menu.css";
 @import "components/bouton.css";
