@@ -1,0 +1,22 @@
+body{
+    color: #FFFFFF;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    background-color: var(--dark-gray);
+}
+
+h1,h2,h3{
+    font-family:var(--font-heading);
+    font-weight:700; 
+    line-height: var(--height-h1);
+}
+h1{
+    font-size: var(--heading-1);
+}
+h2{
+    font-size: var(--heading-2);
+}
+h3{
+    font-size: var(--heading-3);
+    line-height: var(--height-h3);
+}
