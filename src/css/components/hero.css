@@ -1,0 +1,14 @@
+.hero {
+    width: 100%;
+    height: 750px;
+    background-image: url("/assets/img/hero_accueil.avif");
+    background-size: cover;
+    margin: 0;
+
+}
+
+.hero__title {
+    margin: 0;
+    padding-top: 372px;
+    text-align: center;
+}

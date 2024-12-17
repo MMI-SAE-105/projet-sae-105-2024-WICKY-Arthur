@@ -41,5 +41,5 @@ footer {
 .footer__note-text {
     font-family: var(--font-mono);
     font-size: var(--small-text);
-    line-height: 120%;
+    line-height: 1.2;
 }

@@ -1,5 +1,5 @@
 .header {
-    position: static;
+    position: absolute;
     width: 100%;
     padding: 43px 30px;
     display: flex;
