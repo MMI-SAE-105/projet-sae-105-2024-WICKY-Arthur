@@ -53,6 +53,9 @@ a {
     color: inherit;
 }
 
+hr {
+    margin: 0;
+}
 
 .noscroll {
     overflow: hidden;

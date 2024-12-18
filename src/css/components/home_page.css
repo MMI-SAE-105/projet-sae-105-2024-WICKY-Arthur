@@ -1,0 +1,132 @@
+.description__text {
+    font-family: var(--font-sans);
+    font-size: var(--body-1);
+    font-weight: 400;
+    line-height: var(--height-b1);
+    word-spacing: 5%;
+    padding-top: 24px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
+.article__title-objet {
+    margin-top: 24px;
+}
+
+.article__title-objet,
+.article__title-livre,
+.article__title-film,
+.article__title-real,
+.article__title-musique {
+    text-align: center;
+}
+
+.article__title-objet::after,
+.article__title-livre::after,
+.article__title-film::after,
+.article__title-real::after,
+.article__title-musique::after {
+    content: "";
+    display: block;
+    width: auto;
+    height: 3px;
+    background: radial-gradient(circle, #0016D5, #07BCFD);
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.article__title-objet::after {
+    width: 80%;
+}
+
+.article__title-livre::after {
+    width: 47%;
+}
+
+.article__title-film::after {
+    width: 55%;
+}
+
+.article__title-real::after {
+    width: 45%;
+}
+
+.article__title-musique::after {
+    width: 23%;
+}
+
+.article__img-tel {
+    width: 300%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.article__text-tel {
+    font-size: 12px;
+    padding-left: 29%;
+    padding-top: 6%;
+}
+
+.article__img-livre {
+    width: 620%;
+    height: auto;
+    margin-left: -100px;
+    margin-top: 20px;
+}
+
+.article__text-livre {
+    font-size: 12px;
+    padding-right: 35%;
+    padding-top: 6%;
+}
+
+.article__img-film {
+    width: 400%;
+    height: auto;
+    margin: 0;
+
+}
+
+.article__text-film {
+    font-size: 12px;
+    padding-left: 30%;
+}
+
+.article__img-real {
+    width: 380%;
+    height: auto;
+    margin-left: -75px;
+    margin-top: 20px;
+
+}
+
+.article__text-real {
+    font-size: 12px;
+    padding-right: 19%;
+    padding-top: 6%;
+}
+
+.article__img-musique {
+    width: 450%;
+    height: auto;
+    margin: 0;
+    margin-top:25px;
+    
+
+}
+
+.article__text-musique {
+    font-size: 12px;
+    padding-left: 35%;
+}
+
+
+.article__content {
+    display: flex;
+    margin-bottom: 48px;
+    margin-top: 36px;
+}
