@@ -1,4 +1,4 @@
-.read-more-link {
+.read-more-link-home {
     display: block;
     background: linear-gradient(to right, #0016D5, #07BCFD);
     border-radius: 27px;
@@ -8,6 +8,26 @@
     margin-bottom: 82px;
     margin-top: 82px;
     margin-right: 54px;
+}
+
+.read-more-text-home {
+    text-transform: uppercase;
+    font-family: var(--Jetbrains-Mono);
+    font-size: var(--button);
+    line-height: var(--height-st);
+    margin: 0;
+}
+
+.read-more-link {
+    display: block;
+    background: linear-gradient(to right, #0016D5, #07BCFD);
+    border-radius: 27px;
+    padding: 27px 35px;
+    text-align: center;
+    margin-left: 56px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-right: 56px;
 }
 
 .read-more-text {
