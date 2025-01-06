@@ -1,0 +1,15 @@
+.related-films__list{
+    margin:0;
+    list-style: none;
+    padding: 0;
+}
+.related-films__container{
+    display: flex;
+    gap: 66px;
+}
+.related-films__container:first-child{
+    padding-bottom: 81px;
+}
+.related-films__container:last-child{
+    padding-bottom: 34px;
+}

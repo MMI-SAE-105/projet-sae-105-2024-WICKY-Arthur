@@ -1,0 +1,102 @@
+.history__title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 245px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: 24px;
+}
+
+.history__title::after {
+    content: "";
+    display: block;
+    width: 95px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.timeline__title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 260px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: 24px;
+}
+
+.timeline__title::after {
+    content: "";
+    display: block;
+    width: 218px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+
+.artifact__title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 273px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: 24px;
+}
+
+.artifact__title::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.content__title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 260px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: 24px;
+}
+
+.content__title-presentation::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 275px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: 24px;
+}
+
+.content__title-presentation::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.content__title-oeuvres::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 215px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: 24px;
+}

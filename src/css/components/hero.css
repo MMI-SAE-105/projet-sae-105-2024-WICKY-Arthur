@@ -1,4 +1,4 @@
-.hero-homepage, .hero-telephone {
+.hero-homepage, .hero-telephone, .hero-accelerando, .hero-transcendance, .hero-wally_pfister, .hero-trinity, .hero-about, .hero-autres {
     width: 100%;
     height: 90vh;
     background-size: cover;
@@ -12,6 +12,24 @@
     background-image: url("/assets/img/hero_tel.avif");
 }
 
+.hero-accelerando{
+    background-image: url("/assets/img/hero_livre.avif");
+}
+.hero-transcendance{
+    background-image: url("/assets/img/hero_film.avif");
+}
+.hero-wally_pfister{
+    background-image: url("/assets/img/hero_real.avif");
+}
+.hero-trinity{
+    background-image: url("/assets/img/hero_music.avif");
+}
+.hero-about{
+    background-image: url("/assets/img/hero_contact.avif");
+}
+.hero-autres{
+    background-image: url("/assets/img/hero_autres_projets.avif");
+}
 .hero__title {
     margin: 0;
     padding-top: 372px;

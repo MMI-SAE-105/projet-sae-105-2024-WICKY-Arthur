@@ -1,0 +1,9 @@
+.carousel {
+    margin: 0;
+    position: relative;
+    
+}
+
+.carousel__img {
+    width: 50%;
+}
