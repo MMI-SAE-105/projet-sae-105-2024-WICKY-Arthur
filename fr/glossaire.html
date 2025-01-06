@@ -14,8 +14,88 @@
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 </head>
 
-<body>
-
+<body class="page">
+    <header class="header">
+        <a href="/fr" class="header__logo">
+            <img src="/assets/icons/logo.svg" alt="Logo Neuromni-link" class="header__logo-img">
+        </a>
+        <div class="header__container-right">
+            <a href="/en" class="header__lang-switch">
+                <img src="/assets/icons/fr_logo.svg" alt="Logo FR changement de langue" class="header__lang-switch-img">
+            </a>
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar" aria-hidden="true"></span>
+            </button>
+        </div>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="telephone_portable.html" class="menu__link">Le téléphone portable</a>
+                </li>
+                <li class="menu__item"><a href="accelerando.html" class="menu__link">Accelerando</a></li>
+                <li class="menu__item"><a href="transcendance.html" class="menu__link">Transcendance</a></li>
+                <li class="menu__item"><a href="wally_pfister.html" class="menu__link">Wally Pfister</a></li>
+                <li class="menu__item"><a href="trinity.html" class="menu__link">Trinity</a></li>
+                <li class="menu__item"><a href="about_contact.html" class="menu__link">À propos/Contact</a></li>
+                <li class="menu__item"><a href="autres_projets.html" class="menu__link">Autres Projets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero-glossaire">
+        <h1 class="hero__title">Glossaire</h1>
+    </section>
+    <section class="glossary"></section>
+        <p class="glossary__intro">Voici un glossaire qui vous aidera à mieux comprendre la signification de certains mots pouvant être techniques :</p>
+        <ul class="glossary__list">
+            <li class="glossary__item">
+                <p class="glossary__term">Neuromni-Link :</p>
+                <p class="glossary__definition">Nom du site mais aussi de l’évolution du Neural-Link qui permettra d’atteindre l’omniscience.</p>
+            </li>
+            <li class="glossary__item">
+                <p class="glossary__term">Omniscience :</p>
+                <p class="glossary__definition">Capacité de tout savoir sur un sujet quelconque et de connaître intégralement ses pensées et ses sentiments.</p>
+            </li>
+            <li class="glossary__item">
+                <p class="glossary__term">Singularité technologique :</p>
+                <p class="glossary__definition">Un changement technologique si rapide et profond qu’il représente une évolution pour l’humanité.</p>
+            </li>
+            <li class="glossary__item">
+                <p class="glossary__term">Omnipotent :</p>
+                <p class="glossary__definition">Caractéristique d’être tout puissant.</p>
+            </li>
+            <li class="glossary__item">
+                <p class="glossary__term">Cyberpunk :</p>
+                <p class="glossary__definition">Association des mots cybernétique et punk, c’est un genre de science-fiction axé sur la dystopie et qui met le plus souvent en scène un futur proche avec une société technologiquement plus avancée.</p>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__info">
+            <ul class="footer__list">
+                <li class="footer__item">Arthur Wicky</li>
+                <li class="footer__item">Groupe C2</li>
+                <li class="footer__item">arthurwicky@orange.fr</li>
+                <li class="footer__item"><a href="glossaire.html" class="footer__link">Glossaire</a></li>
+                <li class="footer__item"><a href="about_contact.html" class="footer__link">À propos/Contact</a></li>
+                <li class="footer__item"><a href="autres_projets.html" class="footer__link">Autres Projets</a></li>
+            </ul>
+        </div>
+        <div class="footer__social">
+            <ul class="footer__social-list">
+                <li class="footer__social-item"><a href="" class="footer__social-link"><img
+                            src="/assets/icons/insta.svg" alt="" class="footer__social-img"></a></li>
+                <li class="footer__social-item"><a href="" class="footer__social-link"><img
+                            src="/assets/icons/linkedin.svg" alt="" class="footer__social-img"></a></li>
+                <li class="footer__social-item"><a href="" class="footer__social-link"><img
+                            src="/assets/icons/behance.svg" alt="" class="footer__social-img"></a></li>
+                <li class="footer__social-item"><a href="" class="footer__social-link"><img src="/assets/icons/mmi.svg"
+                            alt="" class="footer__social-img"></a></li>
+            </ul>
+        </div>
+        <div class="footer__note">
+            <p class="footer__note-text">Site réalisé dans le cadre d’un exercice pédagogique au sein du département MMI
+                de Montbéliard.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
