@@ -43,33 +43,30 @@
     <section class="hero-about">
         <h1 class="hero__title">À propos <br>Contact</h1>
     </section>
-    <section>
-        <article>
-            <h3>À propos</h3>
-            <p>Je m’appelle Arthur Wicky, étudiant en première année de MMI (Métier du Multimédia et de l’Internet) à
-                Montbéliard. Ce
-                site est un projet qui a été réalisé dans le cadre d’un exercice pédagogique durant mon premier semestre
-                au sein de
-                l’établissement. 
+    <section class="about">
+        <article class="about__article">
+            <h3 class="about__title">À propos</h3>
+            <p class="about__text">Je m’appelle Arthur Wicky, étudiant en première année de MMI (Métier du Multimédia et de l’Internet) à
+                Montbéliard. Ce site est un projet qui a été réalisé dans le cadre d’un exercice pédagogique durant mon premier semestre
+                au sein de l’établissement. 
                 <br><br>
                 Je vous invite à me poser des questions ou à me transmettre vos commentaires par
-                e-mail en complétant le formulaire
-                ci-dessous.
+                e-mail en complétant le formulaire ci-dessous.
             </p>
         </article>
     </section>
-    <section>
-        <h3>formulaire de Contact</h3>
-        <form action="mailto">
-            <label for="name">Prénom / Nom :</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Adresse mail :</label>
-            <input type="email" id="email" name="email" required>
-            <label for="objet">Objet :</label>
-            <input type="objet" id="objet" name="objet" required>
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-            <button type="submit">Envoyer</button>
+    <section class="contact">
+        <h3 class="contact__title">Formulaire de Contact</h3>
+        <form class="contact__form" action="mailto">
+            <label class="contact__label" for="name">Prénom / Nom :</label>
+            <input class="contact__input" type="text" id="name" name="name" required>
+            <label class="contact__label" for="email">Adresse mail :</label>
+            <input class="contact__input" type="email" id="email" name="email" required>
+            <label class="contact__label" for="objet">Objet :</label>
+            <input class="contact__input" type="text" id="objet" name="objet" required>
+            <label class="contact__label" for="message">Message</label>
+            <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10" required></textarea>
+            <button class="contact__button" type="submit">Envoyer</button>
         </form>
     </section>
     <footer class="footer">
