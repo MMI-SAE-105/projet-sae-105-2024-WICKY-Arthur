@@ -1,0 +1,24 @@
+.projects__item{
+    padding-bottom:56px;
+}
+
+.projects__item:last-child{
+    padding-bottom: 160px;
+}
+
+.projects__name-first{
+    text-align: center;
+    font-size: var(--body-2);
+    font-family: var(--font-sans);
+    margin-bottom: 32px;
+    margin-top: 82px;
+    text-decoration: underline;
+}
+
+.projects__name, .projects__author{
+    text-align: center;
+    font-size: var(--body-2);
+    font-family: var(--font-sans);
+    margin-bottom: 32px;
+    text-decoration: underline;
+}
