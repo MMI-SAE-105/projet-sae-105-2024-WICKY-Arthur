@@ -58,75 +58,23 @@
     width: 23%;
 }
 
-.article__img-tel {
-    width: 300%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
-.article__text-tel {
+.article__text{
     font-size: 12px;
-    padding-left: 29%;
-    padding-top: 6%;
-}
-
-.article__img-livre {
-    width: 620%;
-    height: auto;
-    margin-left: -100px;
-    margin-top: 20px;
-}
-
-.article__text-livre {
-    font-size: 12px;
-    padding-right: 35%;
-    padding-top: 6%;
-}
-
-.article__img-film {
-    width: 400%;
-    height: auto;
-    margin: 0;
-
-}
-
-.article__text-film {
-    font-size: 12px;
-    padding-left: 30%;
-}
-
-.article__img-real {
-    width: 380%;
-    height: auto;
-    margin-left: -75px;
-    margin-top: 20px;
-
-}
-
-.article__text-real {
-    font-size: 12px;
-    padding-right: 19%;
-    padding-top: 6%;
 }
 
 .article__img-musique {
-    width: 450%;
     height: auto;
     margin: 0;
     margin-top:25px;
-    
-
+    padding-right:20px;
 }
-
-.article__text-musique {
-    font-size: 12px;
-    padding-left: 35%;
-}
-
 
 .article__content {
     display: flex;
     margin-bottom: 48px;
     margin-top: 36px;
+}
+
+.article__link{
+    width:300%;
 }
