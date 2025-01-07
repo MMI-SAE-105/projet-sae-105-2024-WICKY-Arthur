@@ -100,3 +100,95 @@
     background-color: var(--gray);
     margin-top: 24px;
 }
+
+.transcendance-summary__title::after{
+    content: "";
+    display: block;
+    width: 305px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.transcendance-trailer__title{
+    font-size: 21px;
+}
+.transcendance-trailer__title::after{
+    content: "";
+    display: block;
+    width: 335px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.related-films__title::after{
+    content: "";
+    display: block;
+    width: 160px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.biography__title::after{
+    content: "";
+    display: block;
+    width: 310px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.career__title::after{
+    content: "";
+    display: block;
+    width: 125px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.presentation__title::after{
+    content: "";
+    display: block;
+    width: 265px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.analysis__title::after{
+    content: "";
+    display: block;
+    width: 205px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.video__title::after{
+    content: "";
+    display: block;
+    width: 190px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.projects__title::after{
+    content: "";
+    display: block;
+    width: 160px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.about__title::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+.contact__title::after{
+    content: "";
+    display: block;
+    width: 250px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
