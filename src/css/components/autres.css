@@ -1,12 +1,12 @@
-.projects__item{
-    padding-bottom:56px;
+.others__item {
+    padding-bottom: 56px;
 }
 
-.projects__item:last-child{
+.others__item:last-child {
     padding-bottom: 160px;
 }
 
-.projects__name-first{
+.others__name-first {
     text-align: center;
     font-size: var(--body-2);
     font-family: var(--font-sans);
@@ -15,10 +15,15 @@
     text-decoration: underline;
 }
 
-.projects__name, .projects__author{
+.others__name,
+.others__author {
     text-align: center;
     font-size: var(--body-2);
     font-family: var(--font-sans);
     margin-bottom: 32px;
     text-decoration: underline;
+}
+
+.others__author {
+    text-decoration: none;
 }

@@ -49,6 +49,7 @@ textarea {
 li {
     list-style: none;
 }
+
 ul {
     padding: 0;
     margin: 0;
@@ -65,4 +66,9 @@ hr {
 
 .noscroll {
     overflow: hidden;
+}
+
+.hypertext__link {
+    text-decoration: underline;
+    cursor: pointer;
 }
