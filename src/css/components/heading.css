@@ -1,3 +1,4 @@
+/* Partie FR*/
 .history__title::before {
     content: "";
     display: block;
@@ -188,6 +189,182 @@
     content: "";
     display: block;
     width: 250px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+/* Partie EN */
+
+.history__title-en::after {
+    content: "";
+    display: block;
+    width: 315px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.timeline__title-en::after {
+    content: "";
+    display: block;
+    width: 255px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.artifact__title-en::after {
+    content: "";
+    display: block;
+    width: 330px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+/*Book*/
+
+.content__title-en::after{
+    content: "";
+    display: block;
+    width: 285px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.content__title-presentation-en::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 275px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: 24px;
+}
+
+.content__title-presentation-en::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.content__title-oeuvres-en::after{
+    content: "";
+    display: block;
+    width: 175px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+/*Movie*/
+
+.transcendance-summary__title-en::after {
+    content: "";
+    display: block;
+    width: 320px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.transcendance-trailer__title-en::after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.related-films__title-en::after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+/*Director*/
+
+.biography__title-en::after {
+    content: "";
+    display: block;
+    width: 295px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.career__title-en::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+/*Music*/
+
+.presentation__title-en::after {
+    content: "";
+    display: block;
+    width: 255px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.analysis__title-en::after {
+    content: "";
+    display: block;
+    width: 205px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.video__title-en::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.projects__title-en::after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+/*About*/
+
+.about__title-en::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 8px;
+    background-color: var(--gray);
+    margin-top: -10px;
+}
+
+.contact__title-en::after {
+    content: "";
+    display: block;
+    width: 150px;
     height: 8px;
     background-color: var(--gray);
     margin-top: -10px;
