@@ -7,9 +7,10 @@
 body {
     color: #FFFFFF;
     font-family: var(--font-mono);
-    font-weight: 400;
+    font-weight: 300;
     background-color: var(--dark-gray);
     font-size: var(--body-3);
+    line-height: var(--height-b3);
 }
 
 h1,

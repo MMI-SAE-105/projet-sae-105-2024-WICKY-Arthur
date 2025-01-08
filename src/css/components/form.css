@@ -1,0 +1,46 @@
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact__label {
+    margin-bottom: 6px;
+    font-size: var(--heading-3);
+    line-height: var(--height-h3);
+    font-family: var(--font-heading);
+}
+
+.contact__input {
+    background-color: lightgray;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.contact__textarea {
+    background-color: lightgray;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.contact__button {
+    display: block;
+    background: linear-gradient(to right, #0016D5, #07BCFD);
+    border-radius: 27px;
+    padding: 20px 10px;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    margin-right: 0px;
+    align-content: right;
+}
+
+.contact__button-text {
+    text-transform: uppercase;
+    color: white;
+    font-family: var(--font-mono);
+    font-size: var(--button);
+    line-height: var(--height-st);
+    margin: 0;
+}
