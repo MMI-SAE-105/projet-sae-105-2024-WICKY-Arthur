@@ -1,0 +1,55 @@
+.glossary__term-1, .glossary__term-2, .glossary__term-3, .glossary__term-4, .glossary__term-5 {
+    font-family: var(--font-sans);
+    font-size: var(--body-1);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.glossary__term-1:after {
+    content: "";
+    display: block;
+    width: 125px;
+    height: 4px;
+    background-color: var(--gray);
+    margin-top: -5px;
+}
+.glossary__term-2:after {
+    content: "";
+    display: block;
+    width: 105px;
+    height: 4px;
+    background-color: var(--gray);
+    margin-top: -5px;
+}
+.glossary__term-3:after {
+    content: "";
+    display: block;
+    width: 210px;
+    height: 4px;
+    background-color: var(--gray);
+    margin-top: -5px;
+}
+.glossary__term-4:after {
+    content: "";
+    display: block;
+    width: 105px;
+    height: 4px;
+    background-color: var(--gray);
+    margin-top: -5px;
+}
+.glossary__term-5:after {
+    content: "";
+    display: block;
+    width: 95px;
+    height: 4px;
+    background-color: var(--gray);
+    margin-top: -5px;
+}
+
+.glossary__definition {
+    margin-top: 0;
+}
+
+.glossary__item:last-child {
+    margin-bottom: 90px;
+}
