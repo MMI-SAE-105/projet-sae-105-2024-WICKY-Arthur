@@ -3,13 +3,18 @@
     margin-right: 20px;
 }
 
-.carousel__container {
+.carousel__container,
+.carousel__container-musique {
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     margin-right: -2px;
     gap: 16px;
     scrollbar-width: none;
+}
+
+.carousel__container-musique {
+    margin-bottom: 64px;
 }
 
 .carousel__item {

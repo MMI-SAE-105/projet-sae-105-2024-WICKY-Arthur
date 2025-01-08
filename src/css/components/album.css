@@ -1,19 +1,45 @@
-.album__figcaption{
+.album__figcaption,
+.projects__figcaption {
     font-size: var(--small-text--uppercase);
     text-transform: uppercase;
-    
+    padding-bottom: 25px;
 }
-.album__figure{
+
+.projects__figcaption-lehma {
+    font-size: var(--small-text--uppercase);
+    text-transform: uppercase;
+    width: 190px;
+}
+
+.album__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album__figure {
     width: 60%;
-    justify-items: center;
-    margin-left: 70px;
     margin-top: 8px;
 }
-.album__list {
-    gap: 12px;
-    display: flex;
-    justify-content: center;
+
+.projects__figure {
+    width: 75%;
+    margin-top: 8px;
 }
-.album__links{
+
+.album__list,
+.projects__list {
+    gap:12px;
+    display: flex;
+    align-items: center;
+}
+
+.album__links,
+.projects__links {
     margin-top: 25px;
+}
+
+.carousel__item {
+    display: flex;
+    flex-direction: column;
 }
