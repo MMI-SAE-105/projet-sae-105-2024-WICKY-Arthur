@@ -1,0 +1,19 @@
+.album__figcaption{
+    font-size: var(--small-text--uppercase);
+    text-transform: uppercase;
+    
+}
+.album__figure{
+    width: 60%;
+    justify-items: center;
+    margin-left: 70px;
+    margin-top: 8px;
+}
+.album__list {
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+}
+.album__links{
+    margin-top: 25px;
+}
