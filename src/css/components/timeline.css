@@ -1,0 +1,28 @@
+.timeline {
+    margin: 0;
+}
+
+.timeline__title {
+    margin-left: 30px;
+}
+
+.timeline__figcaption {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.timeline__img {
+    max-width: none;
+    width: 1000%;
+}
+
+.timeline__container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+.timeline__content{
+    position:sticky;
+}
